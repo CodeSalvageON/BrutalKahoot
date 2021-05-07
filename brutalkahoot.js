@@ -3,7 +3,7 @@
 
 // Variables 
 
-const number_of_rounds = document.querySelector(".top-bar__QuestionNumber-sc-186o9v8-2 hAQMGb");
+const number_of_rounds = document.querySelector(".top-bar__QuestionNumber-sc-186o9v8-2.hAQMGb");
 
 // Change text in Kahoot to Brutal Kahoot text
 
