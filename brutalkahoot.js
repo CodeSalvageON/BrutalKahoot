@@ -27,3 +27,4 @@ function changeQuizThingy () {
 
 changeText();
 changeIcon();
+changeQuizThingy();
