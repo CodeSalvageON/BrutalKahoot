@@ -21,3 +21,4 @@ function changeIcon () {
 }
 
 changeText();
+changeIcon();
