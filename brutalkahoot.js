@@ -6,11 +6,13 @@
 const link = document.querySelector("link[rel*='icon']") || document.createElement("link");
 const number_of_rounds = document.querySelector(".top-bar__QuestionNumber-sc-186o9v8-2.hAQMGb");
 const pistol_icon = document.querySelector(".question-type-heading__Image-sc-1to02l7-3.bKtcNR");
+const pistol_text = document.querySelector(".question-type-heading__Label-sc-1to02l7-4.eDxGbD");
 
 // Change text in Kahoot to Brutal Kahoot text
 
 function changeText () {
   number_of_rounds.innerText = number_of_rounds.innerText + " ROUNDS USED IN CLIP";
+  pistol_text.innerText = "PISTOL";
 }
 
 function changeIcon () {
