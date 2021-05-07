@@ -32,7 +32,11 @@ function changeBackgrounds () {
   top_bar.style.backgroundColor = "red";
 }
 
-setInterval(changeText, 500);
+setInterval(function () {
+  number_of_rounds.innerText = number_of_rounds.innerText.replace(" ROUNDS USED IN CLIP", "");
+  
+  changeText();
+}, 500);
 
 changeIcon();
 changeQuizThingy();
